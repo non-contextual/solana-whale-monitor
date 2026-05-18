@@ -1,7 +1,17 @@
 node_modules/
+
+# Environment
 .env
-.log
+.env.*
+!.env.example
+
+# Logs
+*.log
 bot.log
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Claude Code internals
 .claude/
